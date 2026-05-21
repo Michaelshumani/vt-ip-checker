@@ -1,4 +1,4 @@
-﻿# VT IP Checker
+# VT IP Checker
 
 A Python automation tool that checks an IP address against VirusTotal and returns a threat verdict. Built as a cybersecurity portfolio project.
 
@@ -10,7 +10,11 @@ A Python automation tool that checks an IP address against VirusTotal and return
 - Uses environment variables to keep API keys secure
 
 ## Architecture
-User inputs IP → Python script loads API key from environment → Sends HTTPS request to VirusTotal API v3 → 70+ engines analyse the IP → JSON response parsed → Verdict printed to terminal
+
+![Architecture](architecture-diagram.png)
+
+![Flow](flow-diagram.png)
+User inputs IP ? Python script loads API key from environment ? Sends HTTPS request to VirusTotal API v3 ? 70+ engines analyse the IP ? JSON response parsed ? Verdict printed to terminal
 
 ## Flow
 1. Run the script
